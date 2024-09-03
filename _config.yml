@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: HuRTTTTR
+subtitle: '即使天无雨，我亦留此地'
+description: '随便写写，反正没人看'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: HuRTTTTR
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://hurttttr.github.io/project
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: solitude
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
