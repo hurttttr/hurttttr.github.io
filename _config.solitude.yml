@@ -19,7 +19,7 @@ site:
   name:
     class: text # text / i_class / img
     custom: Solitude # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: /img/pwa/favicon.ico # Site icon / 网站图标
+  icon: https://github.githubassets.com/favicons/favicon.svg # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -35,20 +35,20 @@ nav:
   # Menu
   # 菜单
   menu:
-    # Home: / # name: link
-    # Article: # name
-    #   Archives: /archives/ || fas fa-folder-closed # item name: link || icon
-    #   Categories: /categories/ || fas fa-clone
-    #   Tags: /tags/ || fas fa-tags
-    # Friends:
-    #   Moments: /moments/ || fas fa-wifi
-    #   Links: /links/ || fas fa-user-group
-    #   Treasure: javascript:travelling() || fas fa-gift
-    # Myself:
-    #   Equipment: /equipment/ || fas fa-laptop
-    #   Toobox: /tlink/ || fas fa-toolbox
-    #   Music: /music/ || fas fa-music
-    # About: /about/
+    主页: / # name: link
+    文库: # name
+      归档: /archives/ || fas fa-folder-closed # item name: link || icon
+      分类: /categories/ || fas fa-clone
+      标签: /tags/ || fas fa-tags
+    文章:
+      Moments: /moments/ || fas fa-wifi
+      Links: /links/ || fas fa-user-group
+      Treasure: javascript:travelling() || fas fa-gift
+    #我的:
+      #Equipment: /equipment/ || fas fa-laptop
+      #Toobox: /tlink/ || fas fa-toolbox
+      #Music: /music/ || fas fa-music
+    #About: /about/
 
   # Right button
   # 右侧按钮
@@ -68,7 +68,7 @@ nav:
 hometop:
   enable: false
   banner:
-    title: # Tranquility <br>and love life / 宁静致远 <br> 热爱生活 # Title
+    title:  Tranquility <br>and love life / 宁静致远 <br> 热爱生活 # Title
     url: Hexo Theme Solitude
     icon:
       # HTML: # name
@@ -128,9 +128,9 @@ aside:
   # Information card
   # 信息卡
   card:
-    style: 0 # 0: default 1: style 1 2: style 2
+    style: 1 # 0: default 1: style 1 2: style 2
     author:
-      img: /img/avatar.avif # url
+      img:  https://avatars.githubusercontent.com/u/58456022?v=4 # url
       sticker: # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
     background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
@@ -228,7 +228,7 @@ aside:
     runtimeenable: true
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
-    runtime: "2023-04-20 00:00:00"
+    runtime: "2024-09-01 00:00:00"
   # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
 
@@ -491,7 +491,7 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 music:
   enable: false
   # 歌单 ID / 单曲 ID
-  id: 1994908354
+  id: 8983797925
   # 服务商：netease / qq / xiami / kugou / baidu
   server: netease
   # 类型：playlist / song
