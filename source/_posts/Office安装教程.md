@@ -1,6 +1,10 @@
 ---
 title: Office安装教程
 data: 2024-09-02 22:35:55
+type: string
+updated: 2024-09-02 22:35:55
+tags: 程序安装
+categories: 教程
 ---
 
 ## 准备工作

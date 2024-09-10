@@ -66,29 +66,29 @@ nav:
 # Home Top Banner
 # 首页顶部
 hometop:
-  enable: false
+  enable: true
   banner:
-    title:  Tranquility <br>and love life / 宁静致远 <br> 热爱生活 # Title
+    title: 宁静致远 <br> 热爱生活 # Title
     url: Hexo Theme Solitude
     icon:
-      # HTML: # name
-      #   img: https://i.postimg.cc/vBWVnY8q/html.png # url
-      #   color: "#e9572b" # color
-      # JS:
-      #   img: https://i.postimg.cc/3N10Ltv2/js.png
-      #   color: "#f7cb4f"
-      # Docker:
-      #   img: https://i.postimg.cc/8Pk6Fg24/docker.png
-      #   color: "#57b6e6"
-      # Flutter:
-      #   img: https://i.postimg.cc/hPC7T3gB/flutter.png
-      #   color: "#ffffff"
-      # WebPack:
-      #   img: https://i.postimg.cc/dVLZBmtT/webpack.png
-      #   color: "#2e3a41"
-      # Git:
-      #   img: https://i.postimg.cc/nhgjwjCS/git.png
-      #   color: "#df5b40"
+      HTML: # name
+        img: https://i.postimg.cc/vBWVnY8q/html.png # url
+        color: "#e9572b" # color
+      JS:
+        img: https://i.postimg.cc/3N10Ltv2/js.png
+        color: "#f7cb4f"
+      Docker:
+        img: https://i.postimg.cc/8Pk6Fg24/docker.png
+        color: "#57b6e6"
+      Flutter:
+        img: https://i.postimg.cc/hPC7T3gB/flutter.png
+        color: "#ffffff"
+      WebPack:
+        img: https://i.postimg.cc/dVLZBmtT/webpack.png
+        color: "#2e3a41"
+      Git:
+        img: https://i.postimg.cc/nhgjwjCS/git.png
+        color: "#df5b40"
   group:
     # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
   recommendList:
@@ -215,7 +215,7 @@ aside:
     postcount: true
     # Total number of words
     # 总字数
-    wordcount: false
+    wordcount: true
     # PV
     pv: true
     # UV
@@ -280,7 +280,7 @@ post:
       # -  # 默认图片 / default cover
     # Location
     # 位置
-    locate: China
+    locate: 杭州
     # Copyright
     # 版权
     copyright:
@@ -301,23 +301,23 @@ post:
   meta:
     # Release date
     # 发布日期
-    date: false
+    date: true
     # Update date
     # 更新日期
-    updated: false
+    updated: true
     # Location
     # 位置
-    locate: false
+    locate: true
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
-    pv: false
+    pv: true
     # Comment count
     # 评论数
-    comment: false
+    comment: true
   # Reward
   # 打赏
   award:
@@ -385,7 +385,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -644,7 +644,7 @@ wordcount: false
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0
