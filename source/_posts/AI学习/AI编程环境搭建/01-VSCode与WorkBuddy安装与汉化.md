@@ -1,3 +1,11 @@
+---
+title: "第 1 篇：装好 VSCode 与 WorkBuddy，并把界面换成中文"
+date: 2026-09-16 10:00:00
+updated: 2026-09-16 10:00:00
+tags: [AI编程, WorkBuddy, VSCode, Python]
+categories: [AI学习, AI编程环境搭建]
+---
+
 # 第 1 篇：装好 VSCode 与 WorkBuddy，并把界面换成中文
 
 > **一句话结论**
@@ -5,7 +13,7 @@
 > 关于 Python 环境，本篇只讲清「**我们要装什么、为什么要这么装**」，**真正动手在第 3 篇**——那里会交给 WorkBuddy 自动完成。
 > 全程不需要命令行，一路「下一步」即可。
 
-![VSCode + WorkBuddy + Python 三件套](images/01-install-overview.svg)
+![VSCode + WorkBuddy + Python 三件套](/images/AI编程环境搭建/01-install-overview.svg)
 
 ---
 
@@ -152,7 +160,7 @@ code --install-extension ms-ceintl.vscode-language-pack-zh-hans
 
 积分就是 WorkBuddy 运行任务的「燃料」。免费积分有**四条路**，登录后**一定要挨个领一遍**：
 
-![WorkBuddy 免费积分获取路径](images/01-points.svg)
+![WorkBuddy 免费积分获取路径](/images/AI编程环境搭建/01-points.svg)
 
 | 顺序 | 名称 | 大概额度 | 领取位置 | 备注 |
 | :---: | :--- | :--- | :--- | :--- |
@@ -310,4 +318,4 @@ VSCode 可以用；但 **WorkBuddy 要求 Win10 及以上**，老系统请先升
 
 ---
 
-⬅️ 返回 [总导读](../README.md)　|　➡️ 下一篇：[第 2 篇 · ZCode 与 WorkBuddy 对比、模型怎么选](02-ZCode与WorkBuddy对比及模型选型.md)
+⬅️ 返回 [总导读](/2026/09/16/AI学习/README/)　|　➡️ 下一篇：[第 2 篇 · ZCode 与 WorkBuddy 对比、模型怎么选](/2026/09/16/AI学习/AI编程环境搭建/02-ZCode与WorkBuddy对比及模型选型/)

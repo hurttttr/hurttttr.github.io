@@ -1,6 +1,6 @@
 ---
 title: Python刷题记录（31-40）
-data: 2023-06-06 12:00:00
+date: 2023-06-06 12:00:00
 type: string
 updated: 2023-06-06 12:00:00
 tags: Python

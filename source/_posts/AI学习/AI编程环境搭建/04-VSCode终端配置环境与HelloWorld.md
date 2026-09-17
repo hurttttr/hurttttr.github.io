@@ -1,3 +1,11 @@
+---
+title: "第 4 篇：在 VSCode 里配环境，跑通第一个 Hello World"
+date: 2026-09-16 10:30:00
+updated: 2026-09-16 10:30:00
+tags: [AI编程, WorkBuddy, VSCode, Python]
+categories: [AI学习, AI编程环境搭建]
+---
+
 # 第 4 篇：在 VSCode 里配环境，跑通第一个 Hello World
 
 > **一句话结论**
@@ -5,7 +13,7 @@
 > 最容易出错的一步是**「选解释器」**——选错就会出现「明明装了包却提示找不到」。
 > 下一篇（第 5 篇）会走「**AI 路线**」：同样的事交给 WorkBuddy，你只管在 VSCode 里打开并点运行。
 
-![VSCode 配置四步](images/04-vscode-steps.svg)
+![VSCode 配置四步](/images/AI编程环境搭建/04-vscode-steps.svg)
 
 ---
 
@@ -132,7 +140,7 @@ uv venv --python 3.12
 
 执行后项目里会出现 `.venv` 文件夹。**不用激活它**——`uv run` 会自动认。
 
-> ⚠️ **命令报「No download found」？** 说明 3.12 没装上，回到 [第 3 篇](03-用WorkBuddy安装uv与Python3.12.md) 补装。
+> ⚠️ **命令报「No download found」？** 说明 3.12 没装上，回到 [第 3 篇](/2026/09/16/AI学习/AI编程环境搭建/03-用WorkBuddy安装uv与Python3.12/) 补装。
 
 ### 4.3 第三步：装个依赖试试
 
@@ -272,7 +280,7 @@ uv run hello_world.py
 
 ## 八、期望的输出
 
-![终端里期望看到的输出](images/04-hello-flow.svg)
+![终端里期望看到的输出](/images/AI编程环境搭建/04-hello-flow.svg)
 
 ```text
 Hello, World!
@@ -380,7 +388,7 @@ uv sync
 
 本篇你亲手走完了：**打开文件夹 → 开终端 → uv init/venv → 选解释器 → 写代码 → 点 ▶ 运行**。
 
-[第 5 篇](05-用WorkBuddy配置工作区并运行代码.md) 会做**完全相同的事**，区别是：
+[第 5 篇](/2026/09/16/AI学习/AI编程环境搭建/05-用WorkBuddy配置工作区并运行代码/) 会做**完全相同的事**，区别是：
 **环境配置和代码都让 WorkBuddy 生成**，你只需要在 VSCode 里打开它建好的工作区、点一下运行。
 对比着看，你就能明白「AI 到底替你省了哪几步」。
 
@@ -397,4 +405,4 @@ uv sync
 
 ---
 
-⬅️ 上一篇：[第 3 篇 · 用 WorkBuddy 安装 uv 与 Python 3.12](03-用WorkBuddy安装uv与Python3.12.md)　|　➡️ 下一篇：[第 5 篇 · 用 WorkBuddy 配置工作区并运行代码](05-用WorkBuddy配置工作区并运行代码.md)
+⬅️ 上一篇：[第 3 篇 · 用 WorkBuddy 安装 uv 与 Python 3.12](/2026/09/16/AI学习/AI编程环境搭建/03-用WorkBuddy安装uv与Python3.12/)　|　➡️ 下一篇：[第 5 篇 · 用 WorkBuddy 配置工作区并运行代码](/2026/09/16/AI学习/AI编程环境搭建/05-用WorkBuddy配置工作区并运行代码/)

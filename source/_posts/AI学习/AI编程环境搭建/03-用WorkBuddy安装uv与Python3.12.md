@@ -1,3 +1,11 @@
+---
+title: "第 3 篇：用 WorkBuddy 装好 uv 和 Python 3.12"
+date: 2026-09-16 10:20:00
+updated: 2026-09-16 10:20:00
+tags: [AI编程, WorkBuddy, VSCode, Python]
+categories: [AI学习, AI编程环境搭建]
+---
+
 # 第 3 篇：用 WorkBuddy 装好 uv 和 Python 3.12
 
 > **一句话结论**
@@ -21,7 +29,7 @@
 
 ### 1.2 它管三件事
 
-![uv 是什么：一个工具管三件事](images/03-what-is-uv.svg)
+![uv 是什么：一个工具管三件事](/images/AI编程环境搭建/03-what-is-uv.svg)
 
 | 它管的 | 传统做法要装什么 | 用 uv 怎么做 |
 | :--- | :--- | :--- |
@@ -214,7 +222,7 @@ uv 的做法是：`uv run xxx.py`，它**自动找到并使用项目的 `.venv`*
 
 ## 四、发送之后，你会看到什么
 
-![uv 环境搭建四步总览](images/03-uv-flow.svg)
+![uv 环境搭建四步总览](/images/AI编程环境搭建/03-uv-flow.svg)
 
 大致流程如下，**中间不用你干预**（除非它主动提问）：
 
@@ -383,7 +391,7 @@ uv python find 3.12
 接下来有**两条路**，建议都走一遍——第 4 篇教你手动配，第 5 篇让 AI 帮你配，
 走完你就能真切体会到「自己敲命令」和「交给 AI」的差别。
 
-👉 [第 4 篇 · 在 VSCode 里配环境并跑通 Hello World](04-VSCode终端配置环境与HelloWorld.md)
+👉 [第 4 篇 · 在 VSCode 里配环境并跑通 Hello World](/2026/09/16/AI学习/AI编程环境搭建/04-VSCode终端配置环境与HelloWorld/)
 
 ---
 
@@ -399,4 +407,4 @@ uv python find 3.12
 
 ---
 
-⬅️ 上一篇：[第 2 篇 · ZCode 与 WorkBuddy 对比、模型怎么选](02-ZCode与WorkBuddy对比及模型选型.md)　|　➡️ 下一篇：[第 4 篇 · 在 VSCode 里配环境并跑通 Hello World](04-VSCode终端配置环境与HelloWorld.md)
+⬅️ 上一篇：[第 2 篇 · ZCode 与 WorkBuddy 对比、模型怎么选](/2026/09/16/AI学习/AI编程环境搭建/02-ZCode与WorkBuddy对比及模型选型/)　|　➡️ 下一篇：[第 4 篇 · 在 VSCode 里配环境并跑通 Hello World](/2026/09/16/AI学习/AI编程环境搭建/04-VSCode终端配置环境与HelloWorld/)

@@ -1,12 +1,20 @@
+---
+title: "第 2 篇：认识 ZCode，搞清工具与模型怎么选"
+date: 2026-09-16 10:10:00
+updated: 2026-09-16 10:10:00
+tags: [AI编程, WorkBuddy, VSCode, Python]
+categories: [AI学习, AI编程环境搭建]
+---
+
 # 第 2 篇：认识 ZCode，搞清工具与模型怎么选
 
 > **一句话结论**
 > **工具上**：WorkBuddy 是「办公 + 代码都能干」的全场景智能体，ZCode 是「专攻写代码」的氛围编程工具，**建议两个都装，按任务切换**。
 > **模型上**：想「随便写、不怕账单」→ **GLM Coding Plan**（订阅封顶）；想「用多少付多少」→ **DeepSeek 官方 API**（按量计费）。两者不冲突，最后两节教你**同时接上**。
 >
-> ⏭️ **急着跑代码？本篇可以直接跳过**，先去 [第 3 篇](03-用WorkBuddy安装uv与Python3.12.md) 把环境配好，回头再来看选型。
+> ⏭️ **急着跑代码？本篇可以直接跳过**，先去 [第 3 篇](/2026/09/16/AI学习/AI编程环境搭建/03-用WorkBuddy安装uv与Python3.12/) 把环境配好，回头再来看选型。
 
-![WorkBuddy 与 ZCode 定位对比](images/01-cover.svg)
+![WorkBuddy 与 ZCode 定位对比](/images/AI编程环境搭建/01-cover.svg)
 
 ---
 
@@ -110,7 +118,7 @@ zcode .
 
 ## 三、模型怎么选：GLM Coding Plan vs DeepSeek 官方 API
 
-![订阅制与按量计费的成本趋势](images/02-cost.svg)
+![订阅制与按量计费的成本趋势](/images/AI编程环境搭建/02-cost.svg)
 
 ### 3.1 GLM Coding Plan Lite：订阅制「月卡」
 
@@ -143,7 +151,7 @@ zcode .
 
 这是当前**最值钱的一个窗口期**：
 
-![夜间畅用活动时间轴](images/02-night.svg)
+![夜间畅用活动时间轴](/images/AI编程环境搭建/02-night.svg)
 
 | 项目 | 内容 |
 | :--- | :--- |
@@ -413,7 +421,7 @@ setx DEEPSEEK_API_KEY "sk-你的DeepSeek密钥"
 
 > 💡 **本附录同为可选进阶**，跳过不影响后续步骤。
 
-![在客户端中接入 DeepSeek API 的三步](images/02-addapi.svg)
+![在客户端中接入 DeepSeek API 的三步](/images/AI编程环境搭建/02-addapi.svg)
 
 ### 第 1 步：拿到 API Key
 
@@ -523,4 +531,4 @@ ZCode 客户端永远免费，成本只在模型上——可以先用限时免�
 
 ---
 
-⬅️ 上一篇：[第 1 篇 · VSCode 与 WorkBuddy 安装与汉化](01-VSCode与WorkBuddy安装与汉化.md)　|　➡️ 下一篇：[第 3 篇 · 用 WorkBuddy 安装 uv 与 Python 3.12](03-用WorkBuddy安装uv与Python3.12.md)
+⬅️ 上一篇：[第 1 篇 · VSCode 与 WorkBuddy 安装与汉化](/2026/09/16/AI学习/AI编程环境搭建/01-VSCode与WorkBuddy安装与汉化/)　|　➡️ 下一篇：[第 3 篇 · 用 WorkBuddy 安装 uv 与 Python 3.12](/2026/09/16/AI学习/AI编程环境搭建/03-用WorkBuddy安装uv与Python3.12/)

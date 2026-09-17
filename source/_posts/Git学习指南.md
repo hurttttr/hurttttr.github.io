@@ -1,6 +1,6 @@
 ---
 title: Git学习指南
-data: 2024-05-20 12:00:00
+date: 2024-05-20 12:00:00
 type: string
 updated: 2024-05-20 12:00:00
 tags: GitHub
