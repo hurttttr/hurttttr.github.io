@@ -1,0 +1,7 @@
+/* 自定义样式覆盖（通过 scripts/inject-custom.js 注入，主题升级不受影响） */
+
+/* 主题 v4 默认把加粗文字染成浅灰色（--efu-lighttext），这里改回继承正文深色 */
+b,
+strong {
+  color: inherit;
+}
