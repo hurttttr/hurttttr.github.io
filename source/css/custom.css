@@ -5,3 +5,8 @@ b,
 strong {
   color: inherit;
 }
+
+/* 侧栏「最近发布」整卡可点：主题模板里标题/分类是带无效 href 的 span */
+.aside-list-item {
+  cursor: pointer;
+}
