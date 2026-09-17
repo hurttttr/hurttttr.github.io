@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" width="680" height="330" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <rect width="680" height="330" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">订阅制 vs 按量计费：成本随用量的变化</text>
+  <text x="340" y="66" text-anchor="middle" font-size="13" fill="#64748B">同样是调用 AI，用法不同，划算的方式完全不同</text>
+
+  <!-- 坐标轴 -->
+  <line x1="88" y1="262" x2="628" y2="262" stroke="#94A3B8" stroke-width="1.5"/>
+  <line x1="88" y1="262" x2="88" y2="96" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="358" y="292" text-anchor="middle" font-size="12" fill="#64748B">每月使用量 →</text>
+  <text x="70" y="182" text-anchor="middle" font-size="12" fill="#64748B" transform="rotate(-90 70 182)">月度成本 →</text>
+
+  <!-- 订阅线（水平） -->
+  <line x1="88" y1="150" x2="628" y2="150" stroke="#2563EB" stroke-width="3" stroke-dasharray="0"/>
+  <text x="620" y="140" text-anchor="end" font-size="12.5" font-weight="700" fill="#2563EB">GLM Lite：固定月费，额度封顶</text>
+
+  <!-- 按量线（上升） -->
+  <line x1="88" y1="258" x2="628" y2="104" stroke="#F59E0B" stroke-width="3"/>
+  <text x="612" y="96" text-anchor="end" font-size="12.5" font-weight="700" fill="#D97706">DeepSeek API：用多少付多少</text>
+
+  <!-- 平衡点 -->
+  <circle cx="467" cy="150" r="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="3"/>
+  <line x1="467" y1="150" x2="467" y2="262" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="467" y="280" text-anchor="middle" font-size="11.5" font-weight="700" fill="#EF4444">平衡点</text>
+
+  <!-- 区域标注 -->
+  <rect x="270" y="214" width="180" height="40" rx="9" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="360" y="231" text-anchor="middle" font-size="12" font-weight="700" fill="#047857">轻度 / 间歇使用</text>
+  <text x="360" y="247" text-anchor="middle" font-size="11.5" fill="#065F46">按量计费更省：不用不花钱</text>
+
+  <rect x="476" y="182" width="180" height="52" rx="9" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="566" y="203" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">重度 / 整天挂着写</text>
+  <text x="566" y="222" text-anchor="middle" font-size="11.5" fill="#1E40AF">订阅封顶更稳：不怕账单失控</text>
+
+  <text x="340" y="318" text-anchor="middle" font-size="11" fill="#94A3B8">示意图，仅表达趋势；实际数值以官方价格页为准</text>
+</svg>

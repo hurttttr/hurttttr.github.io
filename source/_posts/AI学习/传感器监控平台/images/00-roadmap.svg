@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <marker id="arR2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="680" height="380" rx="18" fill="#F7F9FC"/>
+
+  <text x="340" y="32" text-anchor="middle" font-size="19" font-weight="700" fill="#0F172A">六步走完：从零到能用的监控网页</text>
+  <text x="340" y="54" text-anchor="middle" font-size="12" fill="#64748B">每篇都配一段可直接复制给 AI 智能体的提示词；按顺序做，也可以只挑你需要的那几篇</text>
+
+  <!-- 第 1 行 -->
+  <rect x="38" y="84" width="190" height="104" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="38" y="84" width="190" height="4" rx="2" fill="#2563EB"/>
+  <circle cx="62" cy="110" r="12" fill="#2563EB"/>
+  <text x="62" y="115" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="82" y="115" font-size="13" font-weight="700" fill="#0F172A">环境搭建</text>
+  <text x="54" y="142" font-size="10.5" fill="#475569">uv + Python 3.12 环境</text>
+  <text x="54" y="159" font-size="10.5" fill="#475569">pymodbus / pyserial / FastAPI</text>
+  <text x="54" y="176" font-size="10" fill="#94A3B8">约 15 分钟</text>
+
+  <rect x="246" y="84" width="190" height="104" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="246" y="84" width="190" height="4" rx="2" fill="#0EA5E9"/>
+  <circle cx="270" cy="110" r="12" fill="#0EA5E9"/>
+  <text x="270" y="115" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="290" y="115" font-size="13" font-weight="700" fill="#0F172A">链路打通</text>
+  <text x="262" y="142" font-size="10.5" fill="#475569">串口枚举 · 从机地址扫描</text>
+  <text x="262" y="159" font-size="10.5" fill="#475569">通用寄存器读写工具</text>
+  <text x="262" y="176" font-size="10" fill="#94A3B8">含本地模拟器，免硬件 · 约 20 分钟</text>
+
+  <rect x="454" y="84" width="190" height="104" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="454" y="84" width="190" height="4" rx="2" fill="#8B5CF6"/>
+  <circle cx="478" cy="110" r="12" fill="#8B5CF6"/>
+  <text x="478" y="115" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="498" y="115" font-size="13" font-weight="700" fill="#0F172A">传感器驱动</text>
+  <text x="470" y="142" font-size="10.5" fill="#475569">三个传感器各一个驱动类</text>
+  <text x="470" y="159" font-size="10.5" fill="#475569">+ 各自的调试脚本</text>
+  <text x="470" y="176" font-size="10" fill="#94A3B8">本篇是核心 · 约 30 分钟</text>
+
+  <!-- 换行连接线 -->
+  <path d="M 549 190 L 549 210 L 133 210 L 133 224" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#arR2)"/>
+
+  <!-- 第 2 行 -->
+  <rect x="38" y="228" width="190" height="104" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="38" y="228" width="190" height="4" rx="2" fill="#10B981"/>
+  <circle cx="62" cy="254" r="12" fill="#10B981"/>
+  <text x="62" y="259" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="82" y="259" font-size="13" font-weight="700" fill="#0F172A">后端服务</text>
+  <text x="54" y="286" font-size="10.5" fill="#475569">FastAPI：轮询采集 + 缓存</text>
+  <text x="54" y="303" font-size="10.5" fill="#475569">REST 控制 + WebSocket 推送</text>
+  <text x="54" y="320" font-size="10" fill="#94A3B8">约 25 分钟</text>
+
+  <rect x="246" y="228" width="190" height="104" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="246" y="228" width="190" height="4" rx="2" fill="#F59E0B"/>
+  <circle cx="270" cy="254" r="12" fill="#F59E0B"/>
+  <text x="270" y="259" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="290" y="259" font-size="13" font-weight="700" fill="#0F172A">前端网页</text>
+  <text x="262" y="286" font-size="10.5" fill="#475569">实时数值 + 趋势曲线</text>
+  <text x="262" y="303" font-size="10.5" fill="#475569">报警器控制面板</text>
+  <text x="262" y="320" font-size="10" fill="#94A3B8">单文件，无 CDN 依赖 · 约 25 分钟</text>
+
+  <rect x="454" y="228" width="190" height="104" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="454" y="228" width="190" height="4" rx="2" fill="#EF4444"/>
+  <circle cx="478" cy="254" r="12" fill="#EF4444"/>
+  <text x="478" y="259" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">6</text>
+  <text x="498" y="259" font-size="13" font-weight="700" fill="#0F172A">联调测试</text>
+  <text x="470" y="286" font-size="10.5" fill="#475569">模拟器全链路自测</text>
+  <text x="470" y="303" font-size="10.5" fill="#475569">真机接线与验收清单</text>
+  <text x="470" y="320" font-size="10" fill="#94A3B8">约 20 分钟</text>
+
+  <rect x="38" y="346" width="606" height="24" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="341" y="362" text-anchor="middle" font-size="10.5" fill="#1D4ED8">第 1、2 步做完就能验证「电脑能不能和传感器说上话」——这一步不通过，后面全是白忙</text>
+</svg>

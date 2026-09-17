@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <linearGradient id="gH1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+    <linearGradient id="gH2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3B82F6"/><stop offset="100%" stop-color="#2563EB"/></linearGradient>
+    <linearGradient id="gH3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#EF4444"/><stop offset="100%" stop-color="#DC2626"/></linearGradient>
+  </defs>
+  <rect width="680" height="400" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0F172A">三个传感器的关键寄存器速查</text>
+  <text x="340" y="50" text-anchor="middle" font-size="11.5" fill="#64748B">全部为保持寄存器（FC 0x03 读），16 位、高字节在前；出厂地址均 0x01，组网前逐台改为 1 / 2 / 3</text>
+
+  <!-- 列 1 -->
+  <rect x="20" y="68" width="200" height="54" rx="9" fill="url(#gH1)"/>
+  <text x="34" y="90" font-size="12.5" font-weight="700" fill="#FFFFFF">① 光照度 JXBS-3001-GZ</text>
+  <text x="34" y="109" font-size="9.5" fill="#FEF3C7">9600 · 8N1 · 地址 0x01 · 仅 FC 0x03</text>
+
+  <rect x="20" y="126" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="32" y="143" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B45309">0x0007 + 0x0008</text>
+  <text x="32" y="160" font-size="9.5" fill="#475569">光照度 · uint32 · 单位 Lux</text>
+
+  <rect x="20" y="170" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="32" y="187" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B45309">0x0100</text>
+  <text x="32" y="204" font-size="9.5" fill="#475569">设备地址 · 读写 · 0~252</text>
+
+  <rect x="20" y="214" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="32" y="231" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B45309">0x0101</text>
+  <text x="32" y="248" font-size="9.5" fill="#475569">波特率 · 读写 · 2400/4800/9600</text>
+
+  <rect x="20" y="258" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="32" y="275" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B45309">示例 01 03 00 07 00 02</text>
+  <text x="32" y="292" font-size="9.5" fill="#475569">应答 0x000206F6 → 132854 Lux</text>
+
+  <rect x="20" y="310" width="200" height="74" rx="9" fill="#FFFBEB" stroke="#FDE68A"/>
+  <text x="32" y="329" font-size="9.5" fill="#92400E">· 默认 9600，地址 0x01</text>
+  <text x="32" y="346" font-size="9.5" fill="#92400E">· 32 位值跨两个寄存器</text>
+  <text x="32" y="363" font-size="9.5" fill="#92400E">· 测量值只读，改地址走 0x06</text>
+
+  <!-- 列 2 -->
+  <rect x="240" y="68" width="200" height="54" rx="9" fill="url(#gH2)"/>
+  <text x="254" y="90" font-size="12.5" font-weight="700" fill="#FFFFFF">② 超声波 DYP-A22</text>
+  <text x="254" y="109" font-size="9.5" fill="#DBEAFE">115200 · 8N1 · 地址 0x01 · FC 0x03/06</text>
+
+  <rect x="240" y="126" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="252" y="143" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#1D4ED8">0x0100</text>
+  <text x="252" y="160" font-size="9.5" fill="#475569">处理值距离 · mm · 更稳定</text>
+
+  <rect x="240" y="170" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="252" y="187" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#1D4ED8">0x0101</text>
+  <text x="252" y="204" font-size="9.5" fill="#475569">实时值距离 · mm · 更快</text>
+
+  <rect x="240" y="214" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="252" y="231" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#1D4ED8">0x0102</text>
+  <text x="252" y="248" font-size="9.5" fill="#475569">温度 · int16 · ×0.1 ℃</text>
+
+  <rect x="240" y="258" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="252" y="275" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#1D4ED8">0x010A</text>
+  <text x="252" y="292" font-size="9.5" fill="#475569">回波时间 · us · ÷5.75 = mm</text>
+
+  <rect x="240" y="310" width="200" height="74" rx="9" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="252" y="329" font-size="9.5" fill="#1E40AF">· 默认 115200，地址 0x01</text>
+  <text x="252" y="346" font-size="9.5" fill="#1E40AF">· 0xFFFE = 同频干扰</text>
+  <text x="252" y="363" font-size="9.5" fill="#1E40AF">· 0xFFFD = 未检测到物体</text>
+
+  <!-- 列 3 -->
+  <rect x="460" y="68" width="200" height="54" rx="9" fill="url(#gH3)"/>
+  <text x="474" y="90" font-size="12.5" font-weight="700" fill="#FFFFFF">③ 声光报警器</text>
+  <text x="474" y="109" font-size="9.5" fill="#FEE2E2">9600 · 8N1 · FC 0x03/06/10</text>
+
+  <rect x="460" y="126" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="472" y="143" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B91C1C">0x0010</text>
+  <text x="472" y="160" font-size="9.5" fill="#475569">播放状态 · bit0声音/bit1灯</text>
+
+  <rect x="460" y="170" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="472" y="187" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B91C1C">0x0011</text>
+  <text x="472" y="204" font-size="9.5" fill="#475569">音量 · 1~30 级（30 最大）</text>
+
+  <rect x="460" y="214" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="472" y="231" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B91C1C">0x0012</text>
+  <text x="472" y="248" font-size="9.5" fill="#475569">曲目 · 高8文件夹/低8曲目</text>
+
+  <rect x="460" y="258" width="200" height="44" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="472" y="275" font-size="10" font-family="Consolas,monospace" font-weight="700" fill="#B91C1C">0x0014</text>
+  <text x="472" y="292" font-size="9.5" fill="#475569">灯闪烁模式 · 高低字节分设</text>
+
+  <rect x="460" y="310" width="200" height="74" rx="9" fill="#FEF2F2" stroke="#FECACA"/>
+  <text x="472" y="329" font-size="9.5" fill="#991B1B">· 默认 9600，地址 0x01</text>
+  <text x="472" y="346" font-size="9.5" fill="#991B1B">· 两条命令间隔必须 &gt; 300ms</text>
+  <text x="472" y="363" font-size="9.5" fill="#991B1B">· 0x10 可一次写连续寄存器</text>
+</svg>

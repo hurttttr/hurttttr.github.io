@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" width="680" height="310" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <filter id="sh4" x="-10%" y="-10%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+    <marker id="ar4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="680" height="310" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="44" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">VSCode 配置四步：从装好到跑起来</text>
+  <text x="340" y="68" text-anchor="middle" font-size="13" fill="#64748B">快捷键 Ctrl+Shift+X 打开扩展市场，全程鼠标点点点</text>
+
+  <g filter="url(#sh4)"><rect x="29" y="100" width="142" height="140" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="52" cy="124" r="13" fill="#007ACC"/>
+  <text x="52" y="129" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="74" y="129" font-size="13.5" font-weight="700" fill="#0F172A">装 VSCode</text>
+  <text x="45" y="156" font-size="11" fill="#475569">官网下载安装包</text>
+  <text x="45" y="176" font-size="11" fill="#475569">一路「下一步」</text>
+  <text x="45" y="196" font-size="11" fill="#475569">建议勾选：</text>
+  <text x="45" y="214" font-size="11" fill="#007ACC">「添加到 PATH」</text>
+  <text x="45" y="230" font-size="10.5" fill="#94A3B8">code.visualstudio.com</text>
+
+  <line x1="173" y1="170" x2="189" y2="170" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar4)"/>
+
+  <g filter="url(#sh4)"><rect x="191" y="100" width="142" height="140" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="214" cy="124" r="13" fill="#007ACC"/>
+  <text x="214" y="129" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="236" y="129" font-size="13.5" font-weight="700" fill="#0F172A">汉化界面</text>
+  <text x="207" y="156" font-size="11" fill="#475569">扩展市场搜索</text>
+  <rect x="203" y="166" width="118" height="34" rx="7" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="262" y="180" text-anchor="middle" font-size="9" font-family="Consolas,monospace" fill="#1D4ED8">Chinese (Simplified)</text>
+  <text x="262" y="193" text-anchor="middle" font-size="9" font-family="Consolas,monospace" fill="#1D4ED8">Language Pack</text>
+  <text x="207" y="218" font-size="11" fill="#475569">安装后重启生效</text>
+  <text x="207" y="234" font-size="10.5" fill="#059669">由 Microsoft 官方发布</text>
+
+  <line x1="335" y1="170" x2="351" y2="170" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar4)"/>
+
+  <g filter="url(#sh4)"><rect x="353" y="100" width="142" height="140" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="376" cy="124" r="13" fill="#007ACC"/>
+  <text x="376" y="129" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="398" y="129" font-size="13.5" font-weight="700" fill="#0F172A">装 Python 扩展</text>
+  <text x="369" y="156" font-size="11" fill="#475569">搜索并安装：</text>
+  <rect x="365" y="166" width="118" height="34" rx="7" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="424" y="180" text-anchor="middle" font-size="9" font-family="Consolas,monospace" fill="#1D4ED8">ms-python.python</text>
+  <text x="424" y="193" text-anchor="middle" font-size="9" font-family="Consolas,monospace" fill="#1D4ED8">+ Pylance 语言服务</text>
+  <text x="369" y="218" font-size="11" fill="#475569">提供补全 / 调试 /</text>
+  <text x="369" y="234" font-size="11" fill="#475569">环境识别能力</text>
+
+  <line x1="497" y1="170" x2="513" y2="170" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar4)"/>
+
+  <g filter="url(#sh4)"><rect x="515" y="100" width="142" height="140" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="538" cy="124" r="13" fill="#059669"/>
+  <text x="538" y="129" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="560" y="129" font-size="13.5" font-weight="700" fill="#0F172A">选解释器运行</text>
+  <text x="531" y="156" font-size="11" fill="#475569">Ctrl+Shift+P</text>
+  <text x="531" y="176" font-size="11" fill="#475569">Python: Select</text>
+  <text x="531" y="193" font-size="11" fill="#475569">Interpreter</text>
+  <text x="531" y="213" font-size="11" fill="#059669">选中 .venv 里的</text>
+  <text x="531" y="230" font-size="11" fill="#059669">Python 3.12.13</text>
+
+  <text x="340" y="272" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">选对解释器是新手最容易漏的一步 —— 选错会「装的包找不到」</text>
+  <text x="340" y="293" text-anchor="middle" font-size="11" fill="#94A3B8">提示：虚拟环境不是必须，但强烈建议每个项目一个，避免依赖打架</text>
+</svg>

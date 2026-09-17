@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" width="680" height="330" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <filter id="sh0" x="-10%" y="-10%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4.5" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+    <marker id="ar0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="680" height="330" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">AI 编程环境搭建 · 五步学习路径</text>
+  <text x="340" y="63" text-anchor="middle" font-size="13" fill="#64748B">从装软件到跑通第一行代码，全程约 1 小时</text>
+
+  <!-- Step 1 -->
+  <g filter="url(#sh0)"><rect x="20" y="84" width="120" height="158" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="45" cy="108" r="12" fill="#007ACC"/>
+  <text x="45" y="113" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="63" y="113" font-size="12.5" font-weight="700" fill="#0F172A">装软件</text>
+  <text x="32" y="136" font-size="10" fill="#94A3B8">第 1 篇 · 15 min</text>
+  <text x="32" y="157" font-size="10.5" fill="#475569">装 VSCode</text>
+  <text x="32" y="174" font-size="10.5" fill="#475569">汉化成中文</text>
+  <text x="32" y="191" font-size="10.5" fill="#475569">装 WorkBuddy</text>
+  <text x="32" y="212" font-size="10.5" font-weight="700" fill="#B45309">⭐ 领免费积分</text>
+  <text x="32" y="229" font-size="10.5" fill="#475569">Python 先看全貌</text>
+
+  <line x1="142" y1="163" x2="148" y2="163" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar0)"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#sh0)"><rect x="150" y="84" width="120" height="158" rx="11" fill="#FFFFFF" stroke="#E2E8F0" stroke-dasharray="5 4"/></g>
+  <circle cx="175" cy="108" r="12" fill="#94A3B8"/>
+  <text x="175" y="113" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="193" y="113" font-size="12.5" font-weight="700" fill="#0F172A">会选型</text>
+  <text x="162" y="136" font-size="10" fill="#94A3B8">第 2 篇 · 可跳过</text>
+  <text x="162" y="157" font-size="10.5" fill="#475569">ZCode 是什么</text>
+  <text x="162" y="174" font-size="10.5" fill="#475569">WorkBuddy</text>
+  <text x="162" y="189" font-size="10.5" fill="#475569">vs ZCode</text>
+  <text x="162" y="210" font-size="10.5" fill="#475569">GLM 套餐</text>
+  <text x="162" y="225" font-size="10.5" fill="#475569">vs DeepSeek API</text>
+
+  <line x1="272" y1="163" x2="278" y2="163" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar0)"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#sh0)"><rect x="280" y="84" width="120" height="158" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="305" cy="108" r="12" fill="#F59E0B"/>
+  <text x="305" y="113" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="323" y="113" font-size="12.5" font-weight="700" fill="#0F172A">装环境</text>
+  <text x="292" y="136" font-size="10" fill="#94A3B8">第 3 篇 · 15 min</text>
+  <text x="292" y="157" font-size="10.5" font-weight="700" fill="#B45309">交给 WorkBuddy</text>
+  <text x="292" y="177" font-size="10.5" fill="#475569">复制提示词</text>
+  <text x="292" y="192" font-size="10.5" fill="#475569">→「允许完全访问」</text>
+  <text x="292" y="212" font-size="10.5" fill="#475569">自动装好</text>
+  <text x="292" y="229" font-size="10.5" fill="#059669">uv + Python 3.12</text>
+
+  <line x1="402" y1="163" x2="408" y2="163" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar0)"/>
+
+  <!-- Step 4 -->
+  <g filter="url(#sh0)"><rect x="410" y="84" width="120" height="158" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="435" cy="108" r="12" fill="#007ACC"/>
+  <text x="435" y="113" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="453" y="113" font-size="12.5" font-weight="700" fill="#0F172A">手动跑通</text>
+  <text x="422" y="136" font-size="10" fill="#94A3B8">第 4 篇 · 20 min</text>
+  <text x="422" y="157" font-size="10.5" fill="#475569">VSCode 开文件夹</text>
+  <text x="422" y="174" font-size="10.5" fill="#475569">终端跑 uv 命令</text>
+  <text x="422" y="191" font-size="10.5" fill="#475569">写 hello_world.py</text>
+  <text x="422" y="212" font-size="10.5" font-weight="700" fill="#007ACC">点 ▶ 运行</text>
+
+  <line x1="532" y1="163" x2="538" y2="163" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar0)"/>
+
+  <!-- Step 5 -->
+  <g filter="url(#sh0)"><rect x="540" y="84" width="120" height="158" rx="11" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1.5"/></g>
+  <circle cx="565" cy="108" r="12" fill="#059669"/>
+  <text x="565" y="113" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="583" y="113" font-size="12.5" font-weight="700" fill="#0F172A">AI 跑通</text>
+  <text x="552" y="136" font-size="10" fill="#94A3B8">第 5 篇 · 15 min</text>
+  <text x="552" y="157" font-size="10.5" font-weight="700" fill="#B45309">WorkBuddy 设工作区</text>
+  <text x="552" y="177" font-size="10.5" fill="#475569">一句话建环境</text>
+  <text x="552" y="192" font-size="10.5" fill="#475569">+ 生成代码</text>
+  <text x="552" y="212" font-size="10.5" fill="#475569">VSCode 打开 →</text>
+  <text x="552" y="229" font-size="10.5" font-weight="700" fill="#059669">点 ▶ 运行</text>
+
+  <!-- Bottom -->
+  <rect x="20" y="258" width="640" height="52" rx="10" fill="#EEF2F7" stroke="#DCE3EC"/>
+  <text x="40" y="279" font-size="12" font-weight="700" fill="#334155">第 4 篇自己敲命令，第 5 篇让 AI 做同样的事 —— 两篇都走一遍，你就知道 AI 到底替你省了哪几步</text>
+  <text x="40" y="298" font-size="11.5" fill="#64748B">第 2 篇属于「省钱 / 选型」内容，不装模型也能先把环境跑起来，之后随时回来看</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 450" width="680" height="450" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <marker id="arD" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+    <marker id="arW" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#EF4444"/>
+    </marker>
+  </defs>
+  <rect width="680" height="450" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="32" text-anchor="middle" font-size="19" font-weight="700" fill="#0F172A">链路自检三步法：先证明能通，再写驱动</text>
+  <text x="340" y="54" text-anchor="middle" font-size="12" fill="#64748B">这一步只做一件事——让电脑成功读回一个寄存器的值</text>
+
+  <!-- 步骤 1 -->
+  <rect x="80" y="76" width="250" height="46" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="96" y="97" font-size="12.5" font-weight="700" fill="#0F172A">① 枚举串口，锁定候选 COM 口</text>
+  <text x="96" y="114" font-size="10.5" fill="#64748B">serial.tools.list_ports.comports()</text>
+
+  <line x1="205" y1="124" x2="205" y2="142" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arD)"/>
+
+  <!-- 判断 1 -->
+  <polygon points="205,146 300,186 205,226 110,186" fill="#FEF3C7" stroke="#F59E0B"/>
+  <text x="205" y="183" text-anchor="middle" font-size="12" font-weight="700" fill="#92400E">有候选口？</text>
+  <text x="205" y="199" text-anchor="middle" font-size="10" fill="#B45309">排除蓝牙 / 虚拟口</text>
+
+  <line x1="300" y1="186" x2="368" y2="186" stroke="#EF4444" stroke-width="1.6" marker-end="url(#arW)"/>
+  <text x="334" y="179" text-anchor="middle" font-size="10" fill="#EF4444">否</text>
+
+  <rect x="372" y="160" width="282" height="52" rx="9" fill="#FEF2F2" stroke="#FCA5A5"/>
+  <text x="386" y="181" font-size="11" font-weight="700" fill="#B91C1C">装 USB 转 485 驱动 / 换线 / 换 USB 口</text>
+  <text x="386" y="199" font-size="10" fill="#DC2626">设备管理器里看不到 COM 口，就是这一步的问题</text>
+
+  <line x1="205" y1="226" x2="205" y2="246" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arD)"/>
+  <text x="213" y="242" font-size="10" fill="#64748B">是</text>
+
+  <!-- 步骤 2 -->
+  <rect x="80" y="250" width="250" height="46" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="96" y="271" font-size="12.5" font-weight="700" fill="#0F172A">② 读一个保持寄存器，看有无应答</text>
+  <text x="96" y="288" font-size="10.5" fill="#64748B">FC 0x03 · 地址 0x01 · 读 1 个寄存器</text>
+
+  <line x1="205" y1="298" x2="205" y2="316" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arD)"/>
+
+  <!-- 判断 2 -->
+  <polygon points="205,320 300,360 205,400 110,360" fill="#FEF3C7" stroke="#F59E0B"/>
+  <text x="205" y="357" text-anchor="middle" font-size="12" font-weight="700" fill="#92400E">有正常应答？</text>
+  <text x="205" y="373" text-anchor="middle" font-size="10" fill="#B45309">不是异常码</text>
+
+  <line x1="300" y1="360" x2="368" y2="360" stroke="#EF4444" stroke-width="1.6" marker-end="url(#arW)"/>
+  <text x="334" y="353" text-anchor="middle" font-size="10" fill="#EF4444">否</text>
+
+  <rect x="372" y="318" width="282" height="84" rx="9" fill="#FEF2F2" stroke="#FCA5A5"/>
+  <text x="386" y="339" font-size="11" font-weight="700" fill="#B91C1C">换波特率 + 扫从机地址</text>
+  <text x="386" y="357" font-size="10" fill="#DC2626">波特率：2400 / 4800 / 9600 / 115200</text>
+  <text x="386" y="373" font-size="10" fill="#DC2626">地址：0x01 ~ 0xF7 逐个试</text>
+  <text x="386" y="391" font-size="10" fill="#DC2626">仍不通 → 查 A/B 是否接反、供电、CRC</text>
+
+  <rect x="80" y="412" width="574" height="28" rx="8" fill="#F5F3FF" stroke="#C4B5FD" stroke-dasharray="5 4"/>
+  <text x="367" y="431" text-anchor="middle" font-size="10.5" fill="#6D28D9">没有硬件？先启动本地模拟器（Modbus TCP），同一套驱动代码照样能跑通，等真机到位再切串口</text>
+</svg>

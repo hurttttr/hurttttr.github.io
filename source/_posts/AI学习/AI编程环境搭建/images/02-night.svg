@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <linearGradient id="gNight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="300" rx="18" fill="#F7F9FC"/>
+
+  <text x="340" y="44" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">夜间畅用活动：每晚 23:00 – 次日 09:00</text>
+  <text x="340" y="68" text-anchor="middle" font-size="13" fill="#64748B">活动期 2026 年 9 月 3 日 – 9 月 20 日（北京时间）</text>
+
+  <!-- 时间条 -->
+  <rect x="70" y="122" width="540" height="52" rx="10" fill="#E5E7EB"/>
+  <rect x="385" y="122" width="225" height="52" rx="10" fill="url(#gNight)"/>
+  <rect x="385" y="122" width="12" height="52" fill="url(#gNight)"/>
+
+  <text x="227" y="154" text-anchor="middle" font-size="12.5" font-weight="700" fill="#475569">常规计费（按套餐额度消耗）</text>
+  <text x="500" y="147" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">GLM-5.3-Flash 免费畅用</text>
+  <text x="500" y="166" text-anchor="middle" font-size="11.5" fill="#ECFDF5">额度消耗 = 0</text>
+
+  <!-- 刻度 -->
+  <line x1="70" y1="180" x2="70" y2="188" stroke="#94A3B8"/>
+  <text x="70" y="206" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">09:00</text>
+  <line x1="385" y1="180" x2="385" y2="188" stroke="#94A3B8"/>
+  <text x="385" y="206" text-anchor="middle" font-size="12" font-weight="700" fill="#059669">23:00</text>
+  <line x1="610" y1="180" x2="610" y2="188" stroke="#94A3B8"/>
+  <text x="610" y="206" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">次日 09:00</text>
+
+  <!-- 说明 -->
+  <rect x="70" y="228" width="540" height="52" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="88" y="250" font-size="12" fill="#334155">• 在 <tspan font-weight="700" fill="#6D28D9">ZCode</tspan> 中调用 GLM-5.3-Flash：额度消耗全免，随便写</text>
+  <text x="88" y="270" font-size="12" fill="#334155">• 在 <tspan font-weight="700">其他套餐支持的 Agent</tspan> 中使用：可用额度 <tspan font-weight="700" fill="#059669">×2</tspan></text>
+</svg>

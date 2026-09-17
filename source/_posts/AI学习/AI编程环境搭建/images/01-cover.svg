@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <linearGradient id="gWb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="gZc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="680" height="360" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="48" text-anchor="middle" font-size="25" font-weight="700" fill="#0F172A">WorkBuddy × ZCode</text>
+  <text x="340" y="76" text-anchor="middle" font-size="14" fill="#64748B">两款国产 AI 智能体：一个管办公交付，一个管写代码</text>
+
+  <!-- 左卡片 -->
+  <g filter="url(#sh)">
+    <rect x="28" y="98" width="302" height="228" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="28" y="98" width="302" height="6" rx="3" fill="url(#gWb)"/>
+  </g>
+  <circle cx="70" cy="142" r="21" fill="url(#gWb)"/>
+  <text x="70" y="150" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">W</text>
+  <text x="102" y="137" font-size="17" font-weight="700" fill="#0F172A">WorkBuddy</text>
+  <text x="102" y="158" font-size="12" fill="#64748B">腾讯 · 全场景 AI 办公工作台</text>
+  <line x1="52" y1="176" x2="306" y2="176" stroke="#E2E8F0"/>
+
+  <text x="52" y="202" font-size="12.5" fill="#334155">✓ 说清需求 → 直接交付文件（文档/表格/PPT）</text>
+  <text x="52" y="228" font-size="12.5" fill="#334155">✓ 可读写本地文件夹，批量处理不喊累</text>
+  <text x="52" y="254" font-size="12.5" fill="#334155">✓ 100+ 领域专家团并行协作</text>
+  <text x="52" y="280" font-size="12.5" font-weight="700" fill="#2563EB">✓ 新人积分白送，轻度使用基本免费</text>
+
+  <!-- 右卡片 -->
+  <g filter="url(#sh)">
+    <rect x="350" y="98" width="302" height="228" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="350" y="98" width="302" height="6" rx="3" fill="url(#gZc)"/>
+  </g>
+  <circle cx="392" cy="142" r="21" fill="url(#gZc)"/>
+  <text x="392" y="150" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">Z</text>
+  <text x="424" y="137" font-size="17" font-weight="700" fill="#0F172A">ZCode</text>
+  <text x="424" y="158" font-size="12" fill="#64748B">智谱 · 新一代「氛围编程」工具</text>
+  <line x1="374" y1="176" x2="628" y2="176" stroke="#E2E8F0"/>
+
+  <text x="374" y="202" font-size="12.5" fill="#334155">✓ 对话即执行：改文件、跑命令、看差异</text>
+  <text x="374" y="228" font-size="12.5" fill="#334155">✓ 多智能体协作，啃复杂目标</text>
+  <text x="374" y="254" font-size="12.5" fill="#334155">✓ 客户端免费下载，模型可自由更换</text>
+  <text x="374" y="280" font-size="12.5" font-weight="700" fill="#6D28D9">✓ 可接 DeepSeek / GLM / 任意兼容接口</text>
+
+  <text x="340" y="347" text-anchor="middle" font-size="12" fill="#94A3B8">WorkBuddy：codebuddy.cn/work　|　ZCode：zcode.z.ai/cn</text>
+</svg>

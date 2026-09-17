@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <rect width="680" height="320" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0F172A">在 VSCode 里怎么「点一下就跑」</text>
+  <text x="340" y="50" text-anchor="middle" font-size="11.5" fill="#64748B">不用记命令：打开文件 → 点右上角 ▶</text>
+
+  <!-- 窗口 -->
+  <rect x="30" y="66" width="620" height="192" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <rect x="30" y="66" width="620" height="34" rx="10" fill="#F1F5F9"/>
+  <rect x="30" y="88" width="620" height="12" fill="#F1F5F9"/>
+
+  <!-- 标签页 -->
+  <rect x="42" y="72" width="118" height="24" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="56" y="89" font-size="11" fill="#334155">run.py</text>
+  <circle cx="142" cy="84" r="4" fill="#CBD5E1"/>
+  <text x="172" y="89" font-size="11" fill="#94A3B8">config.yaml</text>
+  <text x="246" y="89" font-size="11" fill="#94A3B8">README.md</text>
+
+  <!-- 运行按钮（高亮） -->
+  <rect x="500" y="70" width="58" height="28" rx="7" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <path d="M 513 78 L 525 84 L 513 90 Z" fill="#059669"/>
+  <path d="M 534 81 L 539 86 L 544 81" fill="none" stroke="#059669" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="529" y="112" text-anchor="middle" font-size="9.5" font-weight="700" fill="#059669">▶ 运行</text>
+
+  <!-- 代码区 -->
+  <text x="48" y="128" font-size="10.5" font-family="Consolas,monospace" fill="#64748B">1</text>
+  <text x="68" y="128" font-size="10.5" font-family="Consolas,monospace" fill="#7C3AED">import</text>
+  <text x="110" y="128" font-size="10.5" font-family="Consolas,monospace" fill="#0F172A">uvicorn, yaml</text>
+  <text x="48" y="147" font-size="10.5" font-family="Consolas,monospace" fill="#64748B">2</text>
+  <text x="68" y="147" font-size="10.5" font-family="Consolas,monospace" fill="#0F172A">cfg = yaml.safe_load(open(</text>
+  <text x="248" y="147" font-size="10.5" font-family="Consolas,monospace" fill="#B45309">"config.yaml"</text>
+  <text x="322" y="147" font-size="10.5" font-family="Consolas,monospace" fill="#0F172A">))</text>
+  <text x="48" y="166" font-size="10.5" font-family="Consolas,monospace" fill="#64748B">3</text>
+  <text x="68" y="166" font-size="10.5" font-family="Consolas,monospace" fill="#64748B"># 参数全部有默认值 —— 直接点 ▶ 就能跑</text>
+  <text x="48" y="185" font-size="10.5" font-family="Consolas,monospace" fill="#64748B">4</text>
+  <text x="68" y="185" font-size="10.5" font-family="Consolas,monospace" fill="#0F172A">uvicorn.run(app)</text>
+
+  <!-- 状态栏右下角解释器 -->
+  <rect x="30" y="232" width="620" height="20" rx="0" fill="#F8FAFC"/>
+  <rect x="30" y="240" width="620" height="12" fill="#F8FAFC"/>
+  <text x="612" y="247" text-anchor="end" font-size="9.5" font-family="Consolas,monospace" fill="#059669">Python 3.12.13 ('.venv': venv)</text>
+  <text x="48" y="247" font-size="9.5" fill="#94A3B8">状态栏右下角：确认是 .venv</text>
+
+  <!-- 说明 -->
+  <rect x="30" y="272" width="300" height="36" rx="8" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="44" y="288" font-size="10.5" font-weight="700" fill="#047857">① 点 ▶ = 用当前解释器运行本文件</text>
+  <text x="44" y="302" font-size="10" fill="#059669">等价于该文件对应的那条命令</text>
+
+  <rect x="346" y="272" width="304" height="36" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="360" y="288" font-size="10.5" font-weight="700" fill="#1D4ED8">② 点 ▶ 右边的 ▾ = 选带参数的启动项</text>
+  <text x="360" y="302" font-size="10" fill="#3B82F6">在 .vscode/launch.json 里预先配好</text>
+</svg>

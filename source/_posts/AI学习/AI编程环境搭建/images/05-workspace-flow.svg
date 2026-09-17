@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" width="680" height="330" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <filter id="sh5" x="-10%" y="-10%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+    <marker id="ar5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="680" height="330" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">AI 路线：设工作区 → 一句话 → 打开 → 点运行</text>
+  <text x="340" y="66" text-anchor="middle" font-size="13" fill="#64748B">和第 4 篇手工做的是同一件事，命令和代码都由 WorkBuddy 生成</text>
+
+  <!-- Step 1 -->
+  <g filter="url(#sh5)"><rect x="24" y="88" width="148" height="152" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="50" cy="114" r="12.5" fill="#F59E0B"/>
+  <text x="50" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="70" y="119" font-size="13" font-weight="700" fill="#0F172A">设工作区</text>
+  <text x="40" y="144" font-size="11" font-weight="700" fill="#B45309">在 WorkBuddy 里</text>
+  <text x="40" y="164" font-size="11" fill="#475569">切到「允许完全访问」</text>
+  <text x="40" y="182" font-size="11" fill="#475569">新建/选择文件夹</text>
+  <rect x="36" y="191" width="124" height="20" rx="5" fill="#FFFBEB" stroke="#FDE68A"/>
+  <text x="98" y="205" text-anchor="middle" font-size="9.5" font-family="Consolas,monospace" fill="#B45309">D:\Code\hello_ai</text>
+  <text x="40" y="226" font-size="10.5" fill="#64748B">路径不要有中文/空格</text>
+
+  <line x1="174" y1="164" x2="190" y2="164" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar5)"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#sh5)"><rect x="192" y="88" width="148" height="152" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="218" cy="114" r="12.5" fill="#F59E0B"/>
+  <text x="218" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="238" y="119" font-size="13" font-weight="700" fill="#0F172A">发一条提示词</text>
+  <text x="208" y="144" font-size="11" font-weight="700" fill="#B45309">它依次执行：</text>
+  <text x="208" y="164" font-size="10.5" font-family="Consolas,monospace" fill="#475569">uv init --python 3.12</text>
+  <text x="208" y="181" font-size="10.5" font-family="Consolas,monospace" fill="#475569">uv venv --python 3.12</text>
+  <text x="208" y="198" font-size="10.5" font-family="Consolas,monospace" fill="#475569">uv add requests</text>
+  <text x="208" y="218" font-size="11" fill="#475569">并写出 hello_world.py</text>
+  <text x="208" y="234" font-size="10.5" fill="#059669">跑一遍把真实输出贴回</text>
+
+  <line x1="342" y1="164" x2="358" y2="164" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar5)"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#sh5)"><rect x="360" y="88" width="148" height="152" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="386" cy="114" r="12.5" fill="#007ACC"/>
+  <text x="386" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="406" y="119" font-size="13" font-weight="700" fill="#0F172A">VSCode 打开</text>
+  <text x="376" y="144" font-size="11" font-weight="700" fill="#007ACC">打开同一个文件夹</text>
+  <text x="376" y="164" font-size="11" fill="#475569">文件 → 打开文件夹</text>
+  <text x="376" y="182" font-size="11" fill="#475569">或右键「通过 Code 打开」</text>
+  <rect x="372" y="191" width="124" height="20" rx="5" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="434" y="205" text-anchor="middle" font-size="9.5" font-family="Consolas,monospace" fill="#1D4ED8">D:\Code\hello_ai</text>
+  <text x="376" y="226" font-size="10.5" fill="#DC2626">⚠ 两边必须一致</text>
+
+  <line x1="510" y1="164" x2="526" y2="164" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#ar5)"/>
+
+  <!-- Step 4 -->
+  <g filter="url(#sh5)"><rect x="528" y="88" width="128" height="152" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/></g>
+  <circle cx="554" cy="114" r="12.5" fill="#059669"/>
+  <text x="554" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="574" y="119" font-size="13" font-weight="700" fill="#0F172A">点 ▶ 运行</text>
+  <text x="544" y="144" font-size="11" font-weight="700" fill="#059669">先选解释器</text>
+  <text x="544" y="164" font-size="11" fill="#475569">Ctrl+Shift+P</text>
+  <text x="544" y="181" font-size="11" fill="#475569">选带 .venv 的那项</text>
+  <text x="544" y="200" font-size="11" fill="#475569">再点右上角 ▶</text>
+  <text x="544" y="220" font-size="10.5" fill="#059669">输出 Hello, World!</text>
+
+  <!-- Bottom highlight -->
+  <rect x="24" y="256" width="632" height="52" rx="10" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="44" y="277" font-size="12" font-weight="700" fill="#065F46">⭐ 唯一还要你手动做的一步：选解释器</text>
+  <text x="44" y="296" font-size="11.5" fill="#047857">AI 负责建环境和写代码，但 VSCode 用哪个解释器，仍然由你在 VSCode 里指定 —— 这步漏了就会「装了包却找不到」</text>
+</svg>

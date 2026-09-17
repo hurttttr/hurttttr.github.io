@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',Arial,sans-serif">
+  <defs>
+    <linearGradient id="tpHost" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/></linearGradient>
+    <linearGradient id="tpHub" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FBBF24"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+  </defs>
+  <rect width="680" height="400" rx="18" fill="#F7F9FC"/>
+  <text x="340" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#0F172A">485 集线器组网：三台设备各有一个「门牌号」</text>
+  <text x="340" y="47" text-anchor="middle" font-size="11" fill="#64748B">集线器只负责「分线」，它挡不住地址冲突和参数不一致</text>
+
+  <!-- 电脑 -->
+  <rect x="20" y="76" width="96" height="48" rx="8" fill="url(#tpHost)"/>
+  <text x="68" y="98" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">电脑（主机）</text>
+  <text x="68" y="115" text-anchor="middle" font-size="9.5" fill="#DBEAFE">轮询三台</text>
+
+  <polygon points="120,93 134,100 120,107" fill="#94A3B8"/>
+
+  <!-- 转换器 -->
+  <rect x="138" y="76" width="92" height="48" rx="8" fill="#FFFFFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="184" y="98" text-anchor="middle" font-size="11" font-weight="700" fill="#5B21B6">USB 转 485</text>
+  <text x="184" y="115" text-anchor="middle" font-size="9.5" fill="#7C3AED">COM3</text>
+
+  <polygon points="234,93 248,100 234,107" fill="#94A3B8"/>
+
+  <!-- 集线器 -->
+  <rect x="252" y="62" width="104" height="76" rx="9" fill="url(#tpHub)"/>
+  <text x="304" y="88" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">485 集线器</text>
+  <text x="304" y="106" text-anchor="middle" font-size="9.5" fill="#FEF3C7">星型布线 · 分线</text>
+  <text x="304" y="123" text-anchor="middle" font-size="9.5" fill="#FEF3C7">（上行口接转换器）</text>
+  <circle cx="352" cy="76" r="3.5" fill="#FFFBEB"/>
+  <circle cx="352" cy="100" r="3.5" fill="#FFFBEB"/>
+  <circle cx="352" cy="124" r="3.5" fill="#FFFBEB"/>
+
+  <!-- 支线 -->
+  <path d="M356,76 H392 V74 H436" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+  <path d="M356,100 H436" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+  <path d="M356,124 H392 V130 H436" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+
+  <!-- 三台设备 -->
+  <rect x="440" y="52" width="216" height="44" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="454" y="72" font-size="11" font-weight="700" fill="#334155">光照度变送器</text>
+  <text x="454" y="88" font-size="9.5" fill="#64748B">Modbus RTU</text>
+  <rect x="576" y="60" width="66" height="22" rx="11" fill="#DBEAFE"/>
+  <text x="609" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="#1E40AF">地址 1</text>
+  <text x="609" y="93" text-anchor="middle" font-size="9" fill="#1D4ED8">9600</text>
+
+  <rect x="440" y="102" width="216" height="44" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="454" y="122" font-size="11" font-weight="700" fill="#334155">超声波测距模组</text>
+  <text x="454" y="138" font-size="9.5" fill="#64748B">Modbus RTU</text>
+  <rect x="576" y="110" width="66" height="22" rx="11" fill="#DBEAFE"/>
+  <text x="609" y="126" text-anchor="middle" font-size="10" font-weight="700" fill="#1E40AF">地址 2</text>
+  <text x="609" y="143" text-anchor="middle" font-size="9" fill="#1D4ED8">9600</text>
+
+  <rect x="440" y="152" width="216" height="44" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="454" y="172" font-size="11" font-weight="700" fill="#334155">声光报警器</text>
+  <text x="454" y="188" font-size="9.5" fill="#64748B">Modbus RTU</text>
+  <rect x="576" y="160" width="66" height="22" rx="11" fill="#DBEAFE"/>
+  <text x="609" y="176" text-anchor="middle" font-size="10" font-weight="700" fill="#1E40AF">地址 3</text>
+  <text x="609" y="193" text-anchor="middle" font-size="9" fill="#1D4ED8">9600</text>
+
+  <!-- 对比面板 -->
+  <rect x="20" y="214" width="310" height="166" rx="10" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+  <text x="38" y="238" font-size="12" font-weight="700" fill="#991B1B">✗ 直接接上总线（出厂状态）</text>
+
+  <rect x="38" y="250" width="274" height="26" rx="6" fill="#FFFFFF" stroke="#FECACA"/>
+  <text x="50" y="267" font-size="10" fill="#334155">光照度</text>
+  <text x="180" y="267" font-size="10" font-family="Consolas,monospace" fill="#B91C1C">地址 0x01</text>
+  <text x="252" y="267" font-size="10" fill="#334155">9600</text>
+
+  <rect x="38" y="282" width="274" height="26" rx="6" fill="#FFFFFF" stroke="#FECACA"/>
+  <text x="50" y="299" font-size="10" fill="#334155">超声波</text>
+  <text x="180" y="299" font-size="10" font-family="Consolas,monospace" fill="#B91C1C">地址 0x01</text>
+  <text x="248" y="299" font-size="10" fill="#B91C1C">115200</text>
+
+  <rect x="38" y="314" width="274" height="26" rx="6" fill="#FFFFFF" stroke="#FECACA"/>
+  <text x="50" y="331" font-size="10" fill="#334155">报警器</text>
+  <text x="180" y="331" font-size="10" font-family="Consolas,monospace" fill="#B91C1C">地址 0x01</text>
+  <text x="252" y="331" font-size="10" fill="#334155">9600</text>
+
+  <text x="38" y="362" font-size="10.5" font-weight="700" fill="#991B1B">地址全撞车 + 波特率不一致 → 谁也读不到</text>
+
+  <rect x="350" y="214" width="310" height="166" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5"/>
+  <text x="368" y="238" font-size="12" font-weight="700" fill="#065F46">✓ 逐台改完地址再组网</text>
+
+  <rect x="368" y="250" width="274" height="26" rx="6" fill="#FFFFFF" stroke="#A7F3D0"/>
+  <text x="380" y="267" font-size="10" fill="#334155">光照度</text>
+  <text x="510" y="267" font-size="10" font-family="Consolas,monospace" fill="#047857">地址 1</text>
+  <text x="582" y="267" font-size="10" fill="#334155">9600</text>
+
+  <rect x="368" y="282" width="274" height="26" rx="6" fill="#FFFFFF" stroke="#A7F3D0"/>
+  <text x="380" y="299" font-size="10" fill="#334155">超声波</text>
+  <text x="510" y="299" font-size="10" font-family="Consolas,monospace" fill="#047857">地址 2</text>
+  <text x="582" y="299" font-size="10" fill="#334155">9600</text>
+
+  <rect x="368" y="314" width="274" height="26" rx="6" fill="#FFFFFF" stroke="#A7F3D0"/>
+  <text x="380" y="331" font-size="10" fill="#334155">报警器</text>
+  <text x="510" y="331" font-size="10" font-family="Consolas,monospace" fill="#047857">地址 3</text>
+  <text x="582" y="331" font-size="10" fill="#334155">9600</text>
+
+  <text x="368" y="362" font-size="10.5" font-weight="700" fill="#065F46">地址唯一 + 参数一致 → 一条总线三台共存</text>
+
+  <text x="340" y="394" text-anchor="middle" font-size="10" fill="#94A3B8">⚠️ 改地址时必须「一次只接一台」：总线上还有别的设备时写地址，可能改到不该改的那台</text>
+</svg>
