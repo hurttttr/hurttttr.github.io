@@ -1,5 +1,6 @@
 ---
 title: "传感器监控平台 · 系列导读"
+cover: /images/covers/sensor-guide.svg
 date: 2026-09-16 09:30:00
 updated: 2026-09-16 09:30:00
 tags: [AI编程, 传感器, 教程]

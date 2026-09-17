@@ -1,5 +1,6 @@
 ---
 title: "第 3 篇：用 WorkBuddy 装好 uv 和 Python 3.12"
+cover: /images/covers/ai-03.svg
 date: 2026-09-16 10:20:00
 updated: 2026-09-16 10:20:00
 tags: [AI编程, WorkBuddy, VSCode, Python]

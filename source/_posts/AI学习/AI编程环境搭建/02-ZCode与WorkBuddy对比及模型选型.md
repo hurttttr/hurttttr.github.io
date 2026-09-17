@@ -1,5 +1,6 @@
 ---
 title: "第 2 篇：认识 ZCode，搞清工具与模型怎么选"
+cover: /images/covers/ai-02.svg
 date: 2026-09-16 10:10:00
 updated: 2026-09-16 10:10:00
 tags: [AI编程, WorkBuddy, VSCode, Python]

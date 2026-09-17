@@ -1,5 +1,6 @@
 ---
 title: Git学习指南
+cover: /images/covers/git-guide.svg
 date: 2024-05-20 12:00:00
 type: string
 updated: 2024-05-20 12:00:00

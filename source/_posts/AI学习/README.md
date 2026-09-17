@@ -1,5 +1,6 @@
 ---
 title: "AI 学习教学文档 · 总导读"
+cover: /images/covers/ai-guide.svg
 date: 2026-09-16 09:00:00
 updated: 2026-09-16 09:00:00
 tags: [AI编程, 教程]

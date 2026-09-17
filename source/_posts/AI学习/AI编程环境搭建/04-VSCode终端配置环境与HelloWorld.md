@@ -1,5 +1,6 @@
 ---
 title: "第 4 篇：在 VSCode 里配环境，跑通第一个 Hello World"
+cover: /images/covers/ai-04.svg
 date: 2026-09-16 10:30:00
 updated: 2026-09-16 10:30:00
 tags: [AI编程, WorkBuddy, VSCode, Python]

@@ -1,5 +1,6 @@
 ---
 title: "第 1 篇：装好 VSCode 与 WorkBuddy，并把界面换成中文"
+cover: /images/covers/ai-01.svg
 date: 2026-09-16 10:00:00
 updated: 2026-09-16 10:00:00
 tags: [AI编程, WorkBuddy, VSCode, Python]

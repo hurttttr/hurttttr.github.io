@@ -1,5 +1,6 @@
 ---
 title: Office安装教程
+cover: /images/covers/office-install.svg
 date: 2024-09-02 22:35:55
 type: string
 updated: 2024-09-02 22:35:55

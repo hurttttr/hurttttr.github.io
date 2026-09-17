@@ -1,5 +1,6 @@
 ---
 title: "第 5 篇：用 WorkBuddy 配好工作区，在 VSCode 里打开并运行"
+cover: /images/covers/ai-05.svg
 date: 2026-09-16 10:40:00
 updated: 2026-09-16 10:40:00
 tags: [AI编程, WorkBuddy, VSCode, Python]

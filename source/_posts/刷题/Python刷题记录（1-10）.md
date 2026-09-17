@@ -1,5 +1,6 @@
 ---
 title: Python刷题记录（1-10）
+cover: /images/covers/algo-1-10.svg
 date: 2023-06-06 12:00:00
 type: string
 updated: 2023-06-06 12:00:00

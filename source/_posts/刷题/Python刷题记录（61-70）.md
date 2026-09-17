@@ -1,5 +1,6 @@
 ---
 title: Python刷题记录（61-70）
+cover: /images/covers/algo-61-70.svg
 date: 2023-06-06 12:00:00
 type: string
 updated: 2023-06-06 12:00:00
